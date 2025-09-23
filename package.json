@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node app/index.js",
     "build": "echo 'Building project...' && mkdir -p dist && cp index.js dist/",
-    "test": "echo 'Run tests here'"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^30.1.3",
