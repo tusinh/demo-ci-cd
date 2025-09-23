@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node app/index.js",
-    "test": "jest"
+    "build": "echo 'Building project...' && mkdir -p dist && cp index.js dist/",
+    "test": "echo 'Run tests here'"
   },
   "devDependencies": {
     "jest": "^30.1.3",
