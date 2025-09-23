@@ -1,0 +1,8 @@
+{
+  "name": "demo-ci-cd",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "node test/test.js"
+  }
+}
