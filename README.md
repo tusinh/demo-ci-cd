@@ -10,3 +10,20 @@ docker run -d \
 - username: cautu
 - pass: cautu123
 - email: cautu404@gmail.com
+
+
+
+# Demo CI/CD với GitHub Actions
+
+## Mô tả
+Repo này chứa app Node.js đơn giản (hàm sum) và test bằng Jest.  
+CI pipeline chạy với GitHub Actions gồm các bước:
+1. Checkout code
+2. Cài dependency
+3. Build app
+4. Run test
+
+## Kết quả
+- Khi push code lên `main`, pipeline tự động chạy.
+- Nếu test pass → pipeline xanh.
+- Nếu test fail → pipeline đỏ.
